@@ -1,0 +1,41 @@
+#outer {
+    width: 1256px; /* Or zero, or something very small */
+    padding-left: 20 px;
+	margin-left: 20px;
+    /*background: #00ffff; /* A color just for debug */
+}
+
+#innerUpper{
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+#innerLeft{
+	width: 176px;
+	margin-left: 30px;
+	float: left;
+}
+
+#innerRight{
+	width: 1050px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#userImage{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.progress {
+    position:relative;
+}
+.progress span {
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    z-index:2;
+}
